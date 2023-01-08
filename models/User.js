@@ -25,9 +25,11 @@ const userSchema = mongoose.Schema(
     photo: {
       type: String,
       required: [true, "Please add a picture"],
+      default: "123.jpg",
     },
     phone: {
       type: Number,
+      default: "000",
     },
     bio: {
       type: String,
